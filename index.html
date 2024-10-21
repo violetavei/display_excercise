@@ -7,23 +7,24 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jacquard+12&family=Kalam&family=Sacramento&display=swap');
             </style>
+            <script src="https://kit.fontawesome.com/6c446e5c5b.js" crossorigin="anonymous"></script>
         <title>Display_exercise</title>
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
         <header>
-            <div class="logo">
-                <h1><span class="text-primary">KRUSH</span>CLUB!</span></h1>
-            </div>
+            <section id="logo_title" class="logo">
+                <h1><span class="text-primary">VEI</span>VEI</span></h1>
+            </section>
             <!--navbar-->
             <nav id="navbar">
                 <section class="container">
-                <ul>
-                    <li><a href="#">Kodu</a></li>
-                    <li><a href="#">Teenused</a></li>
-                    <li><a href="#">Blogi</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
+                        <ul>
+                            <li><a class="current" href="index.html">Kodu</a></li>
+                            <li><a href="about.html">Kirjeldus</a></li>
+                            <li><a href="contact.html">Kontakt</a></li>
+                            <li><a href="portfolio.html">Portfoolio</a></li>
+                        </ul>
                 </section>
             </nav>
         </header>
@@ -33,42 +34,41 @@
             <p>See on peamine artikkel, mis katab tähtsat teemat. Siia tuleb rohkem infot ja tekstilist sisu.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, possimus maiores quia molestiae pariatur incidunt...</p>
         </article>
-        <aside>
+        <aside id="sidebar">
             <h3>Külgriba</h3>
             <ul>
-                <a href="url">https://aesthetics.fandom.com/wiki/Krushclub</a>
-                <a href="url">https://www.chosic.com/genre-chart/krushclub/</a>
+                <li>Link 1</li>
+                <li>Link 2</li>
                 <li>Link 3</li>
                 <li>Link 4</li>
             </ul>
         </aside>
-        <section class="gallery">
-            <h3>Pildigalerii</h3>
-            <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="https://via.placeholder.com/150" alt="Pilt 1"/>
-                    </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/150" alt="Pilt 2"/>
-                    </div>
-                <div class="gallery-item">
-                        <img src="https://via.placeholder.com/150" alt="Pilt 3"/>
-                        </div>
-                <div class="gallery-item">
-                            <img src="https://via.placeholder.com/150" alt="Pilt 4"/>
-                            </div>
+        <section id="img_slider" class="container">
+            <div class="slider-wrapper">
+            <div class="slider">
+            <img id="slide-1" src="/img/Heathers_Violeta_UX24.jpg" alt="Heathers_Violeta_UX24"/>
+            <img id="slide-2" src="/img/fotoseeria_violeta_ux24 copy.jpg" alt="fotoseeria_violeta_ux24"/>
+            <img id="slide-3" src="/img/Mushy_gorls.PNG" alt="Mushy_gorls"/>
+            <img id="slide-4" src="/img/Dtiys_alien.PNG" alt="Dtiys_alien"/>
             </div>
-        </section>
+            <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            </div>
+            </div>
+            </section>
         </main>
         <footer>
             <div class="social">
                 <p>Jälgi meid:</p>
-                <a href="#"><img src="https://via.placeholder.com/30" alt="Facebook"/></a>
-                <a href="#"><img src="https://via.placeholder.com/30" alt="Twitter"/></a>
-                <a href="#"><img src="https://via.placeholder.com/30" alt="Instagram"/></a>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </div>
             <div class="copy">
-                <p>&copy; 2024  Minu Bränd</p>
+                <p>&copy; 2024  _veivei_</p>
             </div>
         </footer>
     </body>
