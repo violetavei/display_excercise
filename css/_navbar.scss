@@ -1,0 +1,22 @@
+#navbar {
+    background: #211100;
+    overflow: auto;
+}
+
+#navbar ul {
+list-style: none;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+background-color: #211100;
+text-align: center;
+overflow: hidden;
+}
+
+#navbar li {
+    width: 22%;
+    background-color: #422200;
+    display: inline-block;
+    line-height: 40px;
+    color: #fff;
+}
